@@ -7,14 +7,17 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${file}",
+                "${file}", // 当前打开的文件
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.exe"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
