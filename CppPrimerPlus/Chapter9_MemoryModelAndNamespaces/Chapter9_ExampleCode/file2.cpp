@@ -5,5 +5,3 @@
 #include "coordin.h"
 
 using namespace std;
-
-polar RectToPolar(rect xyPos) {}
